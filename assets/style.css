@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 4493px;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* -------------------------- */
+/* Phần dùng chung */
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+}
+.describe-resue {
+  color: #9da6a5;
+
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+.button-resue {
+  color: #ffffff;
+  background-color: #1ebfc1;
+  border: 1px solid #1ebfc1;
+  padding: 21px 41px;
+  border-radius: 14px;
+}
+.button-resue:hover {
+  opacity: 90%;
+}
+/* ------------------------- */
+/* Phần header */
+
+.header {
+  background-color: #fff;
+}
+.fixed {
+  position: sticky;
+  top: -40px;
+  z-index: 1;
+}
+.body_flex_header {
+  display: flex;
+  align-items: center;
+  padding: 52px 0 8px;
+}
+/* Phần navigation */
+.header__navigation {
+  margin-left: auto;
+  display: flex;
+}
+.header__navigation a {
+  color: #2f3a3b;
+  padding: 8px 19.5px;
+  font-size: 16px;
+}
+/* Phần login */
+.header__login {
+  display: flex;
+  align-items: center;
+  margin-left: 157.5px;
+}
+.header__login .signIn a {
+  color: #2f3a3b;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+}
+.header__login .signUp a {
+  border: 1px solid #1ebfc1;
+
+  color: #1ebfc1;
+
+  text-align: center;
+
+  font-size: 16px;
+
+  font-weight: 600;
+  margin-left: 24px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
+
+.header__login .signUp a:hover {
+  color: white;
+  background-color: #1ebfc1;
+}
+/* ------------------------- */
+/* Phần main */
+
+/* main_open_left */
+.main__open .content_left .top-tilte {
+  color: #767e7e;
+
+  font-size: 14px;
+
+  font-weight: 400;
+}
+.main__open .content_left .main-tiltle {
+  color: #0d1111;
+  max-width: 458px;
+
+  font-size: 62px;
+
+  font-weight: 700;
+  line-height: 72px; /* 116.129% */
+  margin: 18px 0px 46px;
+}
+.main__open .content_left .desc-main_open {
+  max-width: 374px;
+}
+.main__open .cta-group {
+  display: flex;
+  align-items: center;
+  margin-top: 52px;
+}
+.main__open .cta-group .play-video {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  box-shadow: 0px 22px 50px -17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+.main__open .content_left {
+  padding-top: 142px;
+}
